@@ -5,3 +5,9 @@ django-taggit
 -e git+https://github.com/cfpb/collab.git#egg=collab
 pillow
 south
+
+# cloud foundry
+dj-database-url
+psycopg2
+waitress
+whitenoise
