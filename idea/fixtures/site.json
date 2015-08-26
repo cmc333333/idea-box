@@ -1,0 +1,10 @@
+[
+  {
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+      "name": "idea-box.cf.18f.us",
+      "domain": "idea-box.cf.18f.us"
+    }
+  }
+]
