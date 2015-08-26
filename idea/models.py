@@ -14,6 +14,9 @@ if 'core.taggit' in settings.INSTALLED_APPS:
 else:
     from taggit.managers import TaggableManager
 
+# Import to add signals via script execution
+import idea.signals
+
 
 def unique_slug(item, slug_source, slug_field):
     """

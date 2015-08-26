@@ -47,6 +47,7 @@ ROOT_URLCONF = 'idea.example_urls'
 
 DEBUG = True
 STATIC_URL = '/static/'
+STATIC_ROOT = os.environ.get('TMPDIR', '/tmp') + '/static/'
 
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', get_random_string(50))
 
